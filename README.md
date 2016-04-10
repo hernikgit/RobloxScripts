@@ -1,2 +1,4 @@
 # RobloxScripts
-Roblox Scripts are here!
+# Scripts for your game!
+
+OMG!
