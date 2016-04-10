@@ -1,0 +1,29 @@
+
+
+wait(2) --Keep at 2 for safety.
+------EDIT BELOW
+
+
+gpid = 0 --Game Pass ID
+tools = {""} --Put VIP tools in Lighting, then put their exact names here.
+
+
+------ DON'T EDIT BELOW UNLESS YOU KNOW WHAT YOU'RE DOING
+
+GPS = Game:GetService("GamePassService")
+function respawned(char)
+player = game.Players:FindFirstChild(char.Name)
+print("Respawned")
+if char:FindFirstChild("Head") ~= nil then
+print("It's a Player!") --HOLY COW! A PLAYER. This must be a good day for you :D
+if GPS:PlayerHasPass(player, gpid) then
+print("Has GPID") --good, they have the Game Pass. :D
+for i = 1,#tools do
+game.Lighting:FindFirstChild(tools[i]):Clone().Parent = player.Backpack
+end
+else
+print("No GPID") --doesnt have the Game Pass? Oh no.
+end
+end
+end
+game.Workspace.ChildAdded:connect(respawned)
