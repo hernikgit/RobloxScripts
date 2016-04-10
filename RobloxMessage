@@ -1,0 +1,4 @@
+local message = Instance.new('Message', game.Workspace) -- Insert a new message in the Workspace.
+message.Text = "Your message here!" -- Set the text of the message to "Hello World!".
+wait(5) --Copy This to a ROBLOX Script
+message:Destroy() -- Remove the message after 10 seconds.
