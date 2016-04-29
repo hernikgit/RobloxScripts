@@ -5,3 +5,5 @@ Chat: [![Gitter](https://badges.gitter.im/hernikgit/RobloxScripts.svg)](https://
 
 ~~Just take this and dont do anything!!!~~ 
 # CREDIT US PLEASE
+
+If you want something, tell us!
