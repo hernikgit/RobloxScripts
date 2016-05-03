@@ -7,3 +7,5 @@ Chat: [![Gitter](https://badges.gitter.im/hernikgit/RobloxScripts.svg)](https://
 # CREDIT US PLEASE
 
 If you want something, tell us!
+
+[Visit our site!](http://hernikgit.coolpage.biz/)
