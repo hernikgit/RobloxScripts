@@ -9,3 +9,5 @@ Chat: [![Gitter](https://badges.gitter.im/hernikgit/RobloxScripts.svg)](https://
 If you want something, tell us!
 
 [Visit our site!](http://hernikgit.coolpage.biz/)
+
+IF DOWNLOADING IN ZIP OR OTHER OPEN IT IN SUBLINE TEXT EDITOR!
